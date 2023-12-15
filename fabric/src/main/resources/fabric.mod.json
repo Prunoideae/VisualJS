@@ -1,0 +1,23 @@
+{
+    "schemaVersion": 1,
+    "id": "visualjs",
+    "version": "${version}",
+    "name": "VisualJS",
+    "description": "",
+    "authors": [
+        "Prunoideae"
+    ],
+    "contact": {},
+    "license": "GNU LGPL 3.0",
+    "icon": "icon.gif",
+    "environment": "*",
+    "entrypoints": {},
+    "mixins": [
+        "visualjs.mixins.json",
+        "visualjs-common.mixins.json"
+    ],
+    "depends": {
+        "fabricloader": ">=0.15.2",
+        "minecraft": ">=1.19.2"
+    }
+}
