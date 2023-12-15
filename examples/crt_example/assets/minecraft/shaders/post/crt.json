@@ -1,0 +1,19 @@
+{
+    "targets": [
+        "temp",
+        "temp2"
+    ],
+    "passes": [
+        {
+            "name": "crt",
+            "intarget": "minecraft:main",
+            "outtarget": "temp",
+            "uniforms": []
+        },
+        {
+            "name": "blit",
+            "intarget": "temp",
+            "outtarget": "minecraft:main"
+        }
+    ]
+}
