@@ -27,9 +27,4 @@ public abstract class GameRendererMixin {
             ci.cancel();
         }
     }
-
-    @Inject(method = "onResourceManagerReload", at = @At("RETURN"))
-    public void onResourceManagerReload(ResourceManager resourceManager, CallbackInfo ci) {
-        VisualManager.INSTANCE.reapplyEffect();
-    }
 }

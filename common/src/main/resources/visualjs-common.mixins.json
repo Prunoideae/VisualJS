@@ -4,6 +4,7 @@
     "package": "moe.wolfgirl.visualjs.mixins",
     "compatibilityLevel": "JAVA_17",
     "mixins": [
+        "GameRendererReloadMixin"
     ],
     "client": [
         "GameRendererMixin"
