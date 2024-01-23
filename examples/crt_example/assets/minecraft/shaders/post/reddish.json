@@ -1,0 +1,18 @@
+{
+    "targets": [
+        "temp"
+    ],
+    "passes": [
+        {
+            "name": "reddish",
+            "intarget": "minecraft:main",
+            "outtarget": "temp",
+            "uniforms": []
+        },
+        {
+            "name": "blit",
+            "intarget": "temp",
+            "outtarget": "minecraft:main"
+        }
+    ]
+}
